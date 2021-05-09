@@ -1,4 +1,4 @@
-module.exports.caesar = function (str, shift, type) {
+export default function caesar(str, shift, type) {
    const codeArr = [];
    const temp = str.split('').map(el => el.charCodeAt(0))
    shift = shift % 26;

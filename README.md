@@ -33,8 +33,6 @@ In case of omitted input argument, a command line will be used for input encodin
 
 In case of omitted output argument, a command line will be used for display an encoded text.
 
-There are dummy input and output files prepared in the root folder of CLI tool. Paste ```input.txt``` and ```output.txt``` strings in corresponding arguments to achieve them. Otherwise full absolute or relative path should be provided.
-
 Do not leave an required arguments empty, it will lead to an error!
 
 ### Examples
@@ -43,18 +41,14 @@ Do not leave an required arguments empty, it will lead to an error!
 
 ```caesar-coder -a encode -s 1 -i input.txt -o output.txt```
 
-2. Input and outputs files are in src folder:
-
-```caesar-coder -a encode -s 1 -i src/input.txt -o src/output.txt```
-
-3. Output file is omitted
+2. Output file is omitted
 
 ```caesar-coder -a encode -s 1 -i input.txt```
 
-4. Input file is omitted
+3. Input file is omitted
 
 ```caesar-coder -a encode -s 1 -o output.txt```
 
-5. Input and output files is omitted
+4. Input and output files is omitted
 
 ```caesar-coder -a encode -s 1```

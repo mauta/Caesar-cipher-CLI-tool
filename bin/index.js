@@ -1,13 +1,8 @@
-const { Command } = require('commander');
-const {
-   validation
-} = require("./validation");
-const {
-   streaming
-} = require("./streaming");
-const {
-   printing
-} = require('./printing');
+#!/usr/bin/env node
+import { Command } from 'commander';
+import validation from "../src/validation.js";
+import streaming from "../src/streaming.js";
+import printing from '../src/printing.js';
 
 const commander = new Command();
 

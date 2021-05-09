@@ -1,13 +1,8 @@
-const fs = require("fs");
-const {
-   Transform
-} = require('stream');
+import fs from "fs";
+import { Transform } from 'stream';
+import caesar from "./caesar.js";
 
-const {
-   caesar
-} = require("./caesar");
-
-module.exports.streaming = function (input, output, shift, action) {
+export default function streaming(input, output, shift, action) {
    fs.readFile(input, "utf8",
       function (error, data) {
          if (error) {

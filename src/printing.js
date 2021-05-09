@@ -1,8 +1,6 @@
-const {
-   caesar
-} = require("./caesar");
+import caesar from "./caesar.js";
 
-module.exports.printing = function(shift, action){
+export default function printing(shift, action){
    process.stdout.write("enter your text:\n");
    process.stdin.on('data', (data) => {
       process.stdout.write("your text after encryption:\n");
