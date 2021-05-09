@@ -1,9 +1,6 @@
 # Caesar-cipher-CLI-tool
 task for rsschool
 
-# Caesar-cipher-CLI-tool
-task for rsschool
-
 __Please be advised that all source code is currently in develop branch!__
 
 ### Installation
